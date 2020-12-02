@@ -9,7 +9,6 @@ window.onload = ()=>{
     }
 }
 function geted_words(result){
-    console.log(result);
     var word1 = document.getElementById("word1");
     var word2 = document.getElementById("word2");
     var word3 = document.getElementById("word3");

@@ -17,6 +17,8 @@ function geted_value(result){
             textarea.classList.add("geted-result");
         }else if(result['category'] == 'url'){
             window.open(result['value']);
+            textarea.value  = result['value'];
+            textarea.classList.add("geted-result");
         }
     }
 }

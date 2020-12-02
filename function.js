@@ -1,5 +1,5 @@
-url_urltowords = "http://localhost/urltowords/backend/urltowords.php"
-url_wordstourl = "http://localhost/urltowords/backend/wordstourl.php"
+url_urltowords = "http://urltowords.kajindowsxp.com/backend/urltowords.php"
+url_wordstourl = "http://urltowords.kajindowsxp.com/backend/wordstourl.php"
 function texttowords(text) {
     var request = createXmlHttpRequest();
     request.open('POST',url_urltowords);
@@ -15,13 +15,11 @@ function urltowords(url) {
     request.open('POST',url_urltowords);
     request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
     request.addEventListener('load', function (response) {
+	console.log(this.responseText);
         var result = JSON.parse(this.responseText);
         geted_words(result);
     });
     request.send("category=url&value=" + url);
-}
-function myfunc(tete){
-	console.log(tete);
 }
 function wordstourl(word1, word2, word3) {
     var request = createXmlHttpRequest();
