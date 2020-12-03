@@ -1,5 +1,5 @@
 window.onload = ()=>{
-    document.getElementById("url-submit").onclick = function(){
+    var submit_func =  function(){
         var url = document.getElementById("url-input").value;
         if(!url){
             alert("URLを入力してください");
@@ -7,6 +7,13 @@ window.onload = ()=>{
             alert("正しいURLではありません");
         }else{
             urltowords(url);
+        }
+    }
+    document.getElementById("url-submit").onclick = submit_func;
+    document.getElementById("url-input").onkeypress =>{
+        const key = e.keyCode || e.charCode || 0;
+        if (key == 13) {
+	    submit_func();
         }
     }
 }

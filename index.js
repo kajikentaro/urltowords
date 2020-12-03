@@ -1,9 +1,19 @@
 window.onload = ()=>{
-    document.getElementById("home-submit").onclick = function(){
-        var word1 = document.getElementById("word1").value;
-        var word2 = document.getElementById("word2").value;
-        var word3 = document.getElementById("word3").value;
-        wordstourl(word1,word2,word3);
+    var word1 = document.getElementById("word1");
+    var word2 = document.getElementById("word2");
+    var word3 = document.getElementById("word3");
+    var submit_func = function(){
+        var w1 = word1.value;
+        var w2 = word2.value;
+        var w3 = word3.value;
+        wordstourl(w1,w2,w3);
+    }
+    document.getElementById("home-submit").onclick = submit_func;
+    word1.onkeypress = word2.onkeypress = word3.onkeypress = (e)=>{
+        const key = e.keyCode || e.charCode || 0;
+        if (key == 13) {
+	    submit_func();
+        }
     }
 }
 function geted_value(result){
