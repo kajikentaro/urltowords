@@ -1,18 +1,22 @@
 window.onload = ()=>{
-    var submit_func =  function(){
-        var text = document.getElementById("url-input").value;
-        if(!text){
-            alert("テキストを入力してください");
-        }else{
-            texttowords(text);
+    document.getElementById("url-submit").onclick = submit_func;
+    var url_input = document.getElementById("url-input");
+    url_input.focus();
+    url_input.onkeydown = (e)=>{
+        const key = e.keyCode || e.charCode || 0;
+        if (key == 13 && e.shiftKey) {
+	    submit_func();
+            e.preventDefault();
         }
     }
-    document.getElementById("url-submit").onclick = submit_func;
-    document.getElementById("url-input").onkeypress =>{
-        const key = e.keyCode || e.charCode || 0;
-        if (key == 13) {
-	    submit_func();
-        }
+}
+function submit_func(){
+        console.log("submitfunc");
+    var text = document.getElementById("url-input").value;
+    if(!text){
+        alert("テキストを入力してください");
+    }else{
+        texttowords(text);
     }
 }
 function geted_words(result){
