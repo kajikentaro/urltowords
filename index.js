@@ -22,8 +22,8 @@ function geted_value(result){
         alert("この単語は登録されていません。間違っていませんか？")
     }else{
         clear_words();
+        var textarea = document.getElementById("textarea");
         if(result['category'] == 'text'){
-            var textarea = document.getElementById("textarea");
             textarea.value  = result['value'];
             textarea.classList.add("geted-result");
         }else if(result['category'] == 'url'){

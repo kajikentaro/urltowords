@@ -11,7 +11,6 @@ window.onload = ()=>{
     }
 }
 function submit_func(){
-        console.log("submitfunc");
     var text = document.getElementById("url-input").value;
     if(!text){
         alert("テキストを入力してください");
@@ -20,6 +19,7 @@ function submit_func(){
     }
 }
 function geted_words(result){
+    document.getElementById("url-input").value = "";
     var word1 = document.getElementById("word1");
     var word2 = document.getElementById("word2");
     var word3 = document.getElementById("word3");
