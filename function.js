@@ -1,6 +1,7 @@
 url_urltowords = "http://urltowords.kajindowsxp.com/backend/urltowords.php"
 url_wordstourl = "http://urltowords.kajindowsxp.com/backend/wordstourl.php"
 function texttowords(text) {
+    text = encodeURIComponent(text);
     var request = createXmlHttpRequest();
     request.open('POST',url_urltowords);
     request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
@@ -11,6 +12,7 @@ function texttowords(text) {
     request.send("category=text&value=" + text);
 }
 function urltowords(url) {
+    url = encodeURIComponent(url);
     var request = createXmlHttpRequest();
     request.open('POST',url_urltowords);
     request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
