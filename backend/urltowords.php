@@ -17,7 +17,8 @@ try {
 	$prepare->bindValue(4,$words[1]['word'],PDO::PARAM_STR); 
 	$prepare->bindValue(5,$words[2]['word'],PDO::PARAM_STR); 
 	$prepare->execute();
-       	$result = $prepare->fetchAll(PDO::FETCH_BOTH);
+	$result = $prepare->fetchAll(PDO::FETCH_BOTH);
+
 	$output = array("status" => 200,"word1" => $words[0]['word'],"word2" => $words[1]['word'],"word3" => $words[2]['word']);
 	echo json_encode($output);
 } catch (PDOException $e) {

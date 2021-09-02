@@ -1,368 +1,368 @@
-1, intelligence
-2, artificial
-3, help
-4, python
-5, error
-6, target
-7, learning
-8, new
-9, machine
-10, have
-11, now
-12, not
-13, human
-14, use
-15, link
-16, such
-17, knowledge
-18, edit
-19, function
-20, other
-21, system
-22, research
-23, neural
-24, original
-25, data
-26, also
-27, problem
-28, many
-29, science
-30, computer
-31, theory
-32, information
-33, example
-34, language
-35, code
-36, software
-37, main
-38, ago
-39, reasoning
-40, computing
-41, logic
-42, technology
-43, search
-44, algorithm
-45, added
-46, intelligent
-47, computational
-48, only
-49, see
-50, network
-51, algorithms
-52, method
-53, nilsson
-54, mind
-55, used
-56, general
-57, there
-58, cognitive
-59, development
-60, bronze
-61, instead
-62, processing
-63, deep
-64, first
-65, evolutionary
-66, list
-67, return
-68, article
-69, robots
-70, support
-71, make
-72, time
-73, number
-74, decision
-75, file
-76, field
-77, possible
-78, optimization
-79, programming
-80, default
-81, control
-82, natural
-83, future
-84, learn
-85, input
-86, form
-87, argument
-88, value
-89, process
-90, social
-91, technological
-92, press
-93, behavior
-94, longer
-95, turing
-96, deprecated
-97, model
-98, type
-99, engineering
-100, brain
-101, include
-102, stack
-103, same
-104, work
-105, philosophy
-106, autonomous
-107, well
-108, module
-109, application
-110, build
-111, planning
-112, agent
-113, class
-114, set
-115, risk
-116, recognition
-117, symbolic
-118, mathematical
-119, world
-120, security
-121, web
-122, program
-123, analysis
-124, robot
-125, scientific
-126, approach
-127, object
-128, different
-129, name
-130, often
-131, architecture
-132, test
-133, history
-134, representation
-135, large
-136, computation
-137, version
-138, import
-139, user
-140, then
-141, simple
-142, change
-143, directory
-144, run
-145, available
-146, consciousness
-147, parameter
-148, print
-149, create
-150, multiple
-151, however
-152, way
-153, game
-154, get
-155, hour
-156, life
-157, case
-158, performance
-159, center
-160, management
-161, news
-162, dreyfus
-163, container
-164, text
-165, specific
-166, loop
-167, design
-168, bayesian
-169, understanding
-170, solve
-171, formal
-172, image
-173, commonsense
-174, need
-175, current
-176, library
-177, following
-178, base
-179, question
-180, very
-181, virtual
-182, related
-183, study
-184, environment
-185, perception
-186, statistical
-187, digital
-188, goal
-189, making
-190, even
-191, able
-192, one
-193, exception
-194, memory
-195, read
-196, instance
-197, early
-198, complex
-199, art
-200, full
-201, conference
-202, google
-203, journal
-204, find
-205, write
-206, key
-207, next
-208, speech
-209, take
-210, modern
-211, expression
-212, source
-213, evolution
-214, review
-215, simon
-216, mit
-217, protocol
-218, still
-219, own
-220, know
-221, add
-222, access
-223, open
-224, configuration
-225, order
-226, recurrent
-227, singularity
-228, space
-229, long
-230, calculus
-231, rather
-232, public
-233, think
-234, automation
-235, particular
-236, project
-237, certain
-238, index
-239, part
-240, real
-241, reference
-242, vision
-243, solving
-244, require
-245, humanity
-246, power
-247, progress
-248, difficult
-249, classification
-250, thus
-251, business
-252, page
-253, modeling
-254, genetic
-255, mental
-256, ethical
-257, chapter
-258, company
-259, copy
-260, automatically
-261, call
-262, video
-263, much
-264, level
-265, success
-266, philosophical
-267, fiction
-268, uncertain
-269, few
-270, law
-271, otherwise
-272, path
-273, concept
-274, category
-275, semantic
-276, widely
-277, point
-278, hard
-279, further
-280, faster
-281, badge
-282, variable
-283, dictionary
-284, right
-285, experience
-286, release
-287, industry
-288, mobile
-289, building
-290, several
-291, ability
-292, previous
-293, common
-294, logical
-295, increase
-296, citation
-297, popular
-298, classifier
-299, basic
-300, together
-301, swarm
-302, strategy
-303, tree
-304, allow
-305, paradigm
-306, thinking
-307, economics
-308, potential
-309, become
-310, springer
-311, extension
-312, understand
-313, string
-314, silver
-315, word
-316, believe
-317, want
-318, output
-319, script
-320, database
-321, fast
-322, necessary
-323, service
-324, directly
-325, real-time
-326, generation
-327, effect
-328, harm
-329, expert
-330, match
-331, task
-332, inference
-333, continue
-334, description
-335, operating
-336, translation
-337, idea
-338, result
-339, around
-340, mode
-341, hardware
-342, automated
-343, online
-344, distributed
-345, institute
-346, await
-347, attribute
-348, here
-349, format
-350, issue
-351, solution
-352, random
-353, standard
-354, training
-355, provide
-356, layer
-357, chinese
-358, size
-359, sample
-360, never
-361, second
-362, generally
-363, military
-364, nature
-365, moral
+1,intelligence
+2,artificial
+3,help
+4,python
+5,error
+6,target
+7,learning
+8,new
+9,machine
+10,have
+11,now
+12,not
+13,human
+14,use
+15,link
+16,such
+17,knowledge
+18,edit
+19,function
+20,other
+21,system
+22,research
+23,neural
+24,original
+25,data
+26,also
+27,problem
+28,many
+29,science
+30,computer
+31,theory
+32,information
+33,example
+34,language
+35,code
+36,software
+37,main
+38,ago
+39,reasoning
+40,computing
+41,logic
+42,technology
+43,search
+44,algorithm
+45,added
+46,intelligent
+47,computational
+48,only
+49,see
+50,network
+51,algorithms
+52,method
+53,nilsson
+54,mind
+55,used
+56,general
+57,there
+58,cognitive
+59,development
+60,bronze
+61,instead
+62,processing
+63,deep
+64,first
+65,evolutionary
+66,list
+67,return
+68,article
+69,robots
+70,support
+71,make
+72,time
+73,number
+74,decision
+75,file
+76,field
+77,possible
+78,optimization
+79,programming
+80,default
+81,control
+82,natural
+83,future
+84,learn
+85,input
+86,form
+87,argument
+88,value
+89,process
+90,social
+91,technological
+92,press
+93,behavior
+94,longer
+95,turing
+96,deprecated
+97,model
+98,type
+99,engineering
+100,brain
+101,include
+102,stack
+103,same
+104,work
+105,philosophy
+106,autonomous
+107,well
+108,module
+109,application
+110,build
+111,planning
+112,agent
+113,class
+114,set
+115,risk
+116,recognition
+117,symbolic
+118,mathematical
+119,world
+120,security
+121,web
+122,program
+123,analysis
+124,robot
+125,scientific
+126,approach
+127,object
+128,different
+129,name
+130,often
+131,architecture
+132,test
+133,history
+134,representation
+135,large
+136,computation
+137,version
+138,import
+139,user
+140,then
+141,simple
+142,change
+143,directory
+144,run
+145,available
+146,consciousness
+147,parameter
+148,print
+149,create
+150,multiple
+151,however
+152,way
+153,game
+154,get
+155,hour
+156,life
+157,case
+158,performance
+159,center
+160,management
+161,news
+162,dreyfus
+163,container
+164,text
+165,specific
+166,loop
+167,design
+168,bayesian
+169,understanding
+170,solve
+171,formal
+172,image
+173,commonsense
+174,need
+175,current
+176,library
+177,following
+178,base
+179,question
+180,very
+181,virtual
+182,related
+183,study
+184,environment
+185,perception
+186,statistical
+187,digital
+188,goal
+189,making
+190,even
+191,able
+192,one
+193,exception
+194,memory
+195,read
+196,instance
+197,early
+198,complex
+199,art
+200,full
+201,conference
+202,google
+203,journal
+204,find
+205,write
+206,key
+207,next
+208,speech
+209,take
+210,modern
+211,expression
+212,source
+213,evolution
+214,review
+215,simon
+216,mit
+217,protocol
+218,still
+219,own
+220,know
+221,add
+222,access
+223,open
+224,configuration
+225,order
+226,recurrent
+227,singularity
+228,space
+229,long
+230,calculus
+231,rather
+232,public
+233,think
+234,automation
+235,particular
+236,project
+237,certain
+238,index
+239,part
+240,real
+241,reference
+242,vision
+243,solving
+244,require
+245,humanity
+246,power
+247,progress
+248,difficult
+249,classification
+250,thus
+251,business
+252,page
+253,modeling
+254,genetic
+255,mental
+256,ethical
+257,chapter
+258,company
+259,copy
+260,automatically
+261,call
+262,video
+263,much
+264,level
+265,success
+266,philosophical
+267,fiction
+268,uncertain
+269,few
+270,law
+271,otherwise
+272,path
+273,concept
+274,category
+275,semantic
+276,widely
+277,point
+278,hard
+279,further
+280,faster
+281,badge
+282,variable
+283,dictionary
+284,right
+285,experience
+286,release
+287,industry
+288,mobile
+289,building
+290,several
+291,ability
+292,previous
+293,common
+294,logical
+295,increase
+296,citation
+297,popular
+298,classifier
+299,basic
+300,together
+301,swarm
+302,strategy
+303,tree
+304,allow
+305,paradigm
+306,thinking
+307,economics
+308,potential
+309,become
+310,springer
+311,extension
+312,understand
+313,string
+314,silver
+315,word
+316,believe
+317,want
+318,output
+319,script
+320,database
+321,fast
+322,necessary
+323,service
+324,directly
+325,real-time
+326,generation
+327,effect
+328,harm
+329,expert
+330,match
+331,task
+332,inference
+333,continue
+334,description
+335,operating
+336,translation
+337,idea
+338,result
+339,around
+340,mode
+341,hardware
+342,automated
+343,online
+344,distributed
+345,institute
+346,await
+347,attribute
+348,here
+349,format
+350,issue
+351,solution
+352,random
+353,standard
+354,training
+355,provide
+356,layer
+357,chinese
+358,size
+359,sample
+360,never
+361,second
+362,generally
+363,military
+364,nature
+365,moral
 366,hypothesis
 367,external
 368,electronic
