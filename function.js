@@ -1,5 +1,5 @@
-url_urltowords = "https://urltowords.com/backend/urltowords.php"
-url_wordstourl = "https://urltowords.com/backend/wordstourl.php"
+url_urltowords = "backend/urltowords.php"
+url_wordstourl = "backend/wordstourl.php"
 function texttowords(text) {
     text = encodeURIComponent(text);
     var request = createXmlHttpRequest();
