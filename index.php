@@ -14,11 +14,6 @@ require("header.php");
 <textarea class="result" id="textarea" placeholder="結果がここに表示、または別タブで開かれます">
 </textarea>
 <style>
-	#tab-home{
-		background: var(--coldark);
-		font-weight:bold;
-		color:white;
-	}
 	#textarea{
 		height:300px;
 	}

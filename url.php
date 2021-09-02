@@ -16,11 +16,6 @@ require("header.php");
 	<input id="word3" class="result" type="text" placeholder="ここに結果が表示されます">
 </div>
 <style>
-	#tab-url{
-		background: var(--coldark);
-		font-weight:bold;
-		color:white;
-	}
 	.submit{
 		height:110px;
 		line-height:110px;

@@ -10,6 +10,8 @@ window.onload = ()=>{
 	    submit_func();
         }
     }
+    var active_tab = document.getElementById("tab-home");
+    active_tab.classList.add("hilite");
 }
 var submit_func = function(){
     var w1 = word1.value;

@@ -9,6 +9,8 @@ window.onload = ()=>{
             e.preventDefault();
         }
     }
+    var active_tab = document.getElementById("tab-text");
+    active_tab.classList.add("hilite");
 }
 function submit_func(){
     var text = document.getElementById("url-input").value;

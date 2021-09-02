@@ -8,6 +8,8 @@ window.onload = ()=>{
 	    submit_func();
         }
     }
+    var active_tab = document.getElementById("tab-url");
+    active_tab.classList.add("hilite");
 }
 var submit_func =  function(){
     var url = document.getElementById("url-input").value;

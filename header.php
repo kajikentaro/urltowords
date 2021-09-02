@@ -17,5 +17,5 @@
         </header>
             <div id="contents">
                 <div id="tab">
-                    <a href="index.php"><div id="tab-home">HOME</div></a><a href="url.php"><div id="tab-url">regist URL</div></a><a href="text.php"><div id="tab-text">regist text</div></a>
+                    <a href="index.php" id="tab-home">HOME</a><a href="url.php" id="tab-url">regist URL</a><a href="text.php" id="tab-text">regist text</a>
                 </div>

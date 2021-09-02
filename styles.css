@@ -1,22 +1,31 @@
 :root{
-    --colmain: #50cb84;
+    /*
+    101841 base
+    70acce accent
+    144da0 sub
+    */
+    --colmain: #70acce ;
+    --collight:#144da0;
+
     --colblack:#8e8e8e;
-    --collight:#96DFB5;
-    --coldark:#388E5C;
-    --coldark2:#30794F ;
-    --colback:#EDF9F2 ;
+    --coldark:#101841; /*accent*/
+    --colback:#fff;
     --white:#fff;
-    --col3:#84DAA8;
-    --col32:#61D090;
-    --contents:#f4fff4;
+    --contents:#f4f4f4;
 }
 body{
     background-color:var(--colback);
     margin:0px;
+    display:flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 header{
     margin:0px;
+    /*
     background: linear-gradient(to right, var(--collight),var(--colmain),var(--collight));
+    */
+    background: var(--colmain);
 }
 #headder-logo-wrapper{
     margin:0 auto;
@@ -35,23 +44,31 @@ header{
 #tab{
     margin:0 auto;
     text-align:center;
+    display: flex;
+}
+a:visited{
+    color:inherit;
 }
 #tab-url:hover, #tab-text:hover, #tab-home:hover{
-    transition: .4s;
-    background:var(--colmain);
+    transition: 1.0s;
+    background-color:var(--coldark);
 }
 #tab-url, #tab-text, #tab-home{
+    width:100%;
+    margin:1.5px;
     vertical-align: center;
-    display: inline-block;
-    width:calc(100% / 3);
     padding:15px 0;
-    background-color:var(--colback);
+    background-color:var(--colmain);
+    color:white;
+    font-weight: bold;
     box-sizing:border-box;
-    border-right:solid var(--coldark) 2px;
-    border-left:solid var(--coldark) 2px;
-    border-bottom:solid var(--coldark) 3px;
     font-size:20px;
-    color:#000;
+    text-decoration: none;
+}
+.hilite{
+    font-weight:bold;
+    color:white !important;
+    background-color:var(--coldark) !important;
 }
 #description{
     text-align:center;
@@ -83,13 +100,12 @@ header{
     line-height:180px;
     height:180px;
     width:70%;
-    color:var(--white);
     font-weight: bold;
     margin:30px 0;
     background-color:var(--coldark);
-
     display: inline-block;
     text-decoration: none;
+    color:var(--white) !important;
 }
 .submit:hover {
   background: var(--colmain);
@@ -105,6 +121,7 @@ header{
     box-sizing: border-box;
 }
 #contents{
+    flex-grow:1;
     width:100%;
     max-width:1010px;
     background-color: var(--contents);
@@ -112,8 +129,9 @@ header{
     padding-bottom:100px;
 }
 footer{
+    color:white;
     text-align:right;
-    background-color:var(--contents);
+    background-color:var(--colmain);
     margin:0px;
     padding:10px 60px;
     width:100%;
