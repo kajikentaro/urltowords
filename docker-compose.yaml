@@ -1,0 +1,9 @@
+version: "3.4"
+
+services:
+  prod:
+    container_name: urltowords_prod
+    build:
+      context: .
+    ports:
+      - 4181:80
